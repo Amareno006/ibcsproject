@@ -27,16 +27,16 @@ export default function App() {
 
     return (
         <div>
-            <form>
-                <div class="outline">
-                    <h1 class="title">Reddit v2</h1>
-                    <form>
-                        <input type="text" class="form" placeholder="Username" />
-                        <input type="password" class="form" placeholder="Password" />
-                        <input type="submit" class="form" id="submit" />
-                    </form>
-                </div>
-            </form>
+
+            <div class="outline">
+                <h1 class="title">Reddit v2</h1>
+                <form>
+                    <input type="text" class="form" placeholder="Username" />
+                    <input type="password" class="form" placeholder="Password" />
+                    <input type="submit" class="form" id="submit" />
+                </form>
+            </div>
+
         </div>
     );
 }
